@@ -14,13 +14,15 @@ program
   .description('install fuse module')
   .action(install);
 
-  program
-    .command('bump major|minor|patch')
-    .description('bump version')
-    .action(bump);
+program
+  .command('bump <release>')
+  .description('bump version')
+  .action(bump);
 
 
 fusepm.verify_local_unoproj(".");
 
 program
   .parse(process.argv);
+
+// program.help();
