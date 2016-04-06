@@ -4,6 +4,7 @@ process.title = 'fusepm'
 var program = require('commander');
 var install = require('../lib/install');
 var bump = require('../lib/bump');
+var fixunoproj = require('../lib/fixunoproj');
 var fusepm = require('../lib/utils');
 
 program
@@ -19,8 +20,10 @@ program
   .description('bump version')
   .action(bump);
 
-
-fusepm.verify_local_unoproj(".");
+program
+  .command('fixunoproj')
+  .description('fix the unoproj')
+  .action(fixunoproj);
 
 program
   .parse(process.argv);
