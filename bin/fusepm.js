@@ -15,7 +15,7 @@ program
   .action(install);
 
   program
-    .command('bump')
+    .command('bump major|minor|patch')
     .description('bump version')
     .action(bump);
 

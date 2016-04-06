@@ -17,6 +17,7 @@
     "mkdirp": "^0.5.1",
     "normalize-git-url": "^3.0.1",
     "npm": "^3.8.5",
-    "npm-package-arg": "^4.1.0"
+    "npm-package-arg": "^4.1.0",
+    "semver": "^5.1.0"
   }
 }
