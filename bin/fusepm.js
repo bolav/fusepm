@@ -5,7 +5,7 @@ var program = require('commander');
 var install = require('../lib/install');
 var bump = require('../lib/bump');
 var fixunoproj = require('../lib/fixunoproj');
-var fusepm = require('../lib/utils');
+var fusepm = require('../lib/fusepm');
 
 program
   .version(require('../package.json').version)
