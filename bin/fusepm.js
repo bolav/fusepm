@@ -9,6 +9,7 @@ var fusepm = require('../lib/utils');
 
 program
   .version(require('../package.json').version)
+  .option('-p, --unoproj [filename]', 'Specify .unoproj file')
 
 program
   .command('install <module>')
@@ -25,6 +26,7 @@ program
   .description('fix the unoproj')
   .action(fixunoproj);
 
+fusepm.set_commander(program);
 program
   .parse(process.argv);
 
