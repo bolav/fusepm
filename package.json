@@ -11,8 +11,8 @@
     "bin": "./bin",
     "lib": "./lib"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["fusetools"],
+  "author": "bolav <bolav@ikke.no> (http://www.ikke.no/)",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.9.0",
