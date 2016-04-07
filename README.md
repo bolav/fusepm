@@ -6,7 +6,7 @@ fusepm - A [Fusetools](http://www.fusetools.com/) package manager
     $ npm install -g fusepm 
 
 ## Usage
-     .
+
      Usage: fusepm [options] [command]
 
 
