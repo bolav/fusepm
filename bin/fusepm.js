@@ -6,6 +6,7 @@ var install = require('../lib/install');
 var bump = require('../lib/bump');
 var fixunoproj = require('../lib/fixunoproj');
 var fusepm = require('../lib/fusepm');
+var fpm_npm = require('../lib/npm');
 
 program
   .version(require('../package.json').version)
@@ -26,8 +27,20 @@ program
   .description('fix the unoproj')
   .action(fixunoproj);
 
+program
+  .command('npm <module...>')
+  .description('make npm module(s) ready for fuse (experimental)')
+  .action(fpm_npm);
+
+program
+  .command('*', null, { noHelp: 1 })
+  .action(function () { program.help() })
+
 fusepm.set_commander(program);
 program
   .parse(process.argv);
 
-// program.help();
+if (!process.argv.slice(2).length) {
+  program.help();
+}
+
