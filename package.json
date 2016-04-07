@@ -11,6 +11,13 @@
     "bin": "./bin",
     "lib": "./lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bolav/fusepm"
+  },
+  "bugs": {
+    "url": "https://github.com/bolav/fusepm/issues"
+  },
   "keywords": ["fusetools"],
   "author": "bolav <bolav@ikke.no> (http://www.ikke.no/)",
   "license": "ISC",
