@@ -30,6 +30,7 @@ program
 program
   .command('npm <module...>')
   .description('make npm module(s) ready for fuse (experimental)')
+  .option('--ignore-missing', 'Ignore missing depdencies for require')
   .action(fpm_npm);
 
 program
