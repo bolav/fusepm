@@ -13,7 +13,7 @@ program
   .option('-p, --unoproj [filename]', 'Specify .unoproj file')
 
 program
-  .command('install <module>')
+  .command('install [module...]')
   .description('install fuse module')
   .action(install);
 
