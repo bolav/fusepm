@@ -23,6 +23,11 @@ program
   .action(bump);
 
 program
+  .command('version <release>', null, { noHelp: true })
+  .description('bump version')
+  .action(bump);
+
+program
   .command('fixunoproj')
   .description('fix the unoproj')
   .action(fixunoproj);
@@ -30,7 +35,7 @@ program
 program
   .command('npm <module...>')
   .description('make npm module(s) ready for fuse (experimental)')
-  .option('--ignore-missing', 'Ignore missing depdencies for require')
+  .option('--ignore-missing', 'ignore missing depdencies for require')
   .action(fpm_npm);
 
 program
