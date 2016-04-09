@@ -1,6 +1,6 @@
 {
   "name": "fusepm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Package manager for Fusetools",
   "main": "./lib/fusepm.js",
   "bin": "./bin/fusepm.js",
