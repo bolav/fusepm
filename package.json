@@ -31,8 +31,10 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-2": "^6.5.0",
     "browserify": "^13.0.0",
+    "clarinet": "^0.11.0",
     "commander": "^2.9.0",
     "debug": "^2.2.0",
+    "hosted-git-info": "^2.1.4",
     "json-parser": "^1.1.5",
     "jsonrepair": "^0.1.0",
     "lodash": "^4.8.2",
@@ -41,6 +43,8 @@
     "normalize-git-url": "^3.0.1",
     "npm": "^3.8.5",
     "npm-package-arg": "^4.1.0",
-    "semver": "^5.1.0"
+    "resolve": "^1.1.7",
+    "semver": "^5.1.0",
+    "xtend": "^4.0.1"
   }
 }
