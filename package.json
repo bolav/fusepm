@@ -5,7 +5,7 @@
   "main": "./lib/fusepm.js",
   "bin": "./bin/fusepm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "directories": {
     "bin": "./bin",
@@ -46,5 +46,9 @@
     "resolve": "^1.1.7",
     "semver": "^5.1.0",
     "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
