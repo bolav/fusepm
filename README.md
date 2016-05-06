@@ -1,4 +1,4 @@
-fusepm - A [Fusetools](http://www.fusetools.com/) package manager
+fusepm - A [Fusetools](http://www.fusetools.com/) package manager [![Build Status](https://travis-ci.org/bolav/fusepm.svg?branch=master)](https://travis-ci.org/bolav/fusepm)
 =================================================================
 
 ## Installation
