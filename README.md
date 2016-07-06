@@ -54,7 +54,6 @@ qreader
 `fusepm install gallery`
 
 ## Updating module registry
-
 Update the module registry with additional official/community modules in `/registry/index.js`. Make sure it always exports an Object where the keys are the names of each module and the value the URI for where to fetch and clone the files.
 
 ```js
@@ -63,6 +62,12 @@ module.exports = {
   // ...
 }
 ```
+
+## Local use and debug/development
+
+- Fork this repo
+- `npm link`
+- Use as above
 
 ## TODO
 
