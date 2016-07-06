@@ -1,0 +1,21 @@
+module.exports = {
+  "datepicker": "https://github.com/bolav/fuse-datepicker",
+  "barcodescanner": "https://github.com/bolav/fuse-barcodescanner",
+  "cachingimagesource": "https://github.com/bolav/fuse-cachingimagesource",
+  "camerapanel": "https://github.com/bolav/fuse-camerapanel",
+  "contacts": "https://github.com/bolav/fuse-contacts",
+  "dropbox": "https://github.com/bolav/fuse-dropbox",
+  "emacs": "https://github.com/bolav/fuse-emacs",
+  "facebook-login": "https://github.com/bolav/fuse-facebook-login",
+  "gallery": "https://github.com/bolav/fuse-gallery",
+  "onetimepassword": "https://github.com/toral/fuse-onetimepassword",
+  "qreader": "https://github.com/zean00/fuse-qreader",
+  "socketio": "https://github.com/bolav/fuse-socketio",
+  "sqlite": "https://github.com/bolav/fuse-sqlite",
+  "syncano": "https://github.com/bolav/fuse-syncano",
+  "testfairy": "https://github.com/bolav/fuse-testfairy",
+  "touchid": "https://github.com/bolav/fuse-touchid",
+  "whilevisibleinscrollview": "https://github.com/bolav/fuse-whilevisibleinscrollview",
+  "youtube": "https://github.com/bolav/fuse-youtube",
+  "cocoapods": "https://github.com/bolav/fuse-cocoapods"
+}

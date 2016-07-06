@@ -3,6 +3,7 @@
 process.title = 'fusepm'
 var program = require('commander');
 var install = require('../lib/install');
+var list = require('../lib/list');
 var bump = require('../lib/bump');
 var fixunoproj = require('../lib/fixunoproj');
 var fusepm = require('../lib/fusepm');
@@ -16,6 +17,11 @@ program
   .command('install [module...]')
   .description('install fuse module')
   .action(install);
+
+program
+  .command('list')
+  .description('list registered fuse modules')
+  .action(list);
 
 program
   .command('bump <release>')
