@@ -9,7 +9,6 @@ describe('modules', function () {
   	it('should be a function', function () {
   		assert.typeOf(install, 'function');
 	  });
-    console.log(install());
   }),
   describe('bump', function () {
 	it('should be a function', function () {
