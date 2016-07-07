@@ -1,0 +1,22 @@
+{
+  "Name": "NPM Test",
+  "RootNamespace": "",
+  "Packages": [
+    "Fuse",
+    "FuseJS"
+  ],
+  "Includes": [
+    "*"
+  ],
+  "FusePM": {
+    "Dependencies": [
+      "https://github.com/bolav/fuse-dropbox"
+    ]
+  },
+  "Projects": [
+    "fuse_modules/bolav/fuse-dropbox/dropbox_include.unoproj"
+  ],
+  "Excludes": [
+    "fuse_modules/"
+  ]
+}

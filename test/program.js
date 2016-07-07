@@ -14,10 +14,10 @@ describe('modules', function () {
 	  });
   }),
   describe('bump', function () {
-	it('should be a function', function () {
-		assert.typeOf(bump, 'function');
-	});
-  });
+	  it('should be a function', function () {
+		  assert.typeOf(bump, 'function');
+	  });
+  }),
   describe('list', function () {
     beforeEach(function() {
       this.sinon.stub(console, 'log');
