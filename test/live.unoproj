@@ -10,13 +10,8 @@
   ],
   "FusePM": {
     "Dependencies": [
-      "https://github.com/bolav/fuse-dropbox"
+      "https://github.com/bolav/fuse-dropbox",
+      "https://github.com/bolav/fuse-sqlite"
     ]
-  },
-  "Projects": [
-    "fuse_modules/bolav/fuse-dropbox/dropbox_include.unoproj"
-  ],
-  "Excludes": [
-    "fuse_modules/"
-  ]
+  }
 }

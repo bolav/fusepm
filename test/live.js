@@ -14,7 +14,7 @@ process.chdir('test');
 
 describe('live', function () {
   describe('install', function () {
-  	this.timeout(30000);
+  	this.timeout(10000);
   	before(function (done) {
   		install([]).then(function () {
   			done();
