@@ -53,6 +53,26 @@ qreader
 
 `fusepm install gallery`
 
+The gallery module (library) will be installed by copying the git repo into `fuse_modules/<account>` where `account` is the git user account such as `bolav`.
+
+The application `.unoproj` file will be updated with the following:
+
+```
+  "Projects": [
+    "fuse_modules/bolav/fuse-datepicker/datepicker_include.unoproj"
+  ],
+  "Excludes": [
+    "fuse_modules/"
+  ],
+  "FusePM": {
+    "Dependencies": [
+      "https://github.com/bolav/fuse-datepicker"
+    ]
+  }
+```
+
+Each `Projects` entry will merge that project into the main project so it can be referenced as though it was part of the root project.
+
 ## Updating module registry
 Update the module registry with additional official/community modules in `/registry/index.js`. Make sure it always exports an Object where the keys are the names of each module and the value the URI for where to fetch and clone the files.
 
@@ -109,8 +129,18 @@ Using `LoginScreen` from loginscreen library, imported into an app:
 </PageControl>
 ```
 
+Alternatively include using `ux:Include`
+
+```
+<PageControl Active="login">
+  <ux:Include File="LoginScreen.ux"/>
+</PageControl>
+```
+
 ## TODO
 
+- Add `lib` command to create a new fusepm library project that follows conventions
 - Allow install of multiple modules in one command
 - Allow install of a pre-defined collection of modules
+
 
