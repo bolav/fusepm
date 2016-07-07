@@ -117,7 +117,8 @@ Libraries makes it easy to partition your app into smaller parts, such as a libr
 
 ```
 <Page ux:Class="LoginScreen">
-    ...
+  <Router ux:Dependency="router" />
+  ...
 </Page>
 ```
 
@@ -125,11 +126,11 @@ Using `LoginScreen` from loginscreen library, imported into an app:
 
 ```
 <PageControl Active="login">
-  <LoginScreen ux:Name="login"/>
+  <LoginScreen ux:Name="login" router="router"/>
 </PageControl>
 ```
 
-Alternatively include using `ux:Include`
+Alternatively you can include using `ux:Include` if the `.ux` file is completely self-contained
 
 ```
 <PageControl Active="login">
