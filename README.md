@@ -53,6 +53,10 @@ qreader
 
 `fusepm install gallery`
 
+You can also directly reference a git repo location:
+
+`fusepm install https://github.com/bolav/fuse-datepicker`
+
 The gallery module (library) will be installed by copying the git repo into `fuse_modules/<account>` where `account` is the git user account such as `bolav`.
 
 The application `.unoproj` file will be updated with the following:
