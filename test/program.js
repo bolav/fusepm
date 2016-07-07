@@ -21,12 +21,10 @@ describe('modules', function () {
   describe('list', function () {
     beforeEach(function() {
       this.sinon.stub(console, 'log');
-    });
-
+    }),
     it('should be a function', function () {
      assert.typeOf(list, 'function');
-    });
-
+    }),
     it('should output modules', function () {
       list();
       chai.expect( console.log.callCount == 3 ).to.be.true;
