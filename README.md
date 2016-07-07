@@ -82,6 +82,33 @@ A for a library to work with fusepm, it must have a `<xyz>_include.unoproj` file
 The library `<xyz>_include.unoproj` file can include one or more `.ux` files without an `<App>` tag. These tags (components) will be available in the App `.ux` file of the application project just like if they had been created there.
 Libraries makes it easy to partition your app into smaller parts, such as a library per page or libraries for view components to be reused/shared across multiple apps.
 
+*Example: Creating loginscreen reusable library*
+
+`loginscreen_include.unoproj` file
+
+```
+  "Includes": [
+    "*.uno",
+    "*.uxl",
+    "LoginScreen.ux",
+```
+
+`LoginScreen.ux` file
+
+```
+<Page ux:Class="LoginScreen">
+    ...
+</Page>
+```
+
+Using `LoginScreen` from loginscreen library, imported into an app:
+
+```
+<PageControl Active="login">
+  <LoginScreen ux:Name="login"/>
+</PageControl>
+```
+
 ## TODO
 
 - Allow install of multiple modules in one command
