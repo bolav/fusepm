@@ -17,5 +17,6 @@ module.exports = {
   "touchid": "https://github.com/bolav/fuse-touchid",
   "whilevisibleinscrollview": "https://github.com/bolav/fuse-whilevisibleinscrollview",
   "youtube": "https://github.com/bolav/fuse-youtube",
-  "cocoapods": "https://github.com/bolav/fuse-cocoapods"
+  "cocoapods": "https://github.com/bolav/fuse-cocoapods",
+  "fontawesome": "https://github.com/danmademe/fuse-fontawesome"
 }
