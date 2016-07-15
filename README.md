@@ -46,6 +46,7 @@ facebook-login
 gallery
 onetimepassword
 qreader
+fontawesome
 ...
 ```
 

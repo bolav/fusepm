@@ -1,13 +1,16 @@
 module.exports = {
-  "datepicker": "https://github.com/bolav/fuse-datepicker",
   "barcodescanner": "https://github.com/bolav/fuse-barcodescanner",
   "cachingimagesource": "https://github.com/bolav/fuse-cachingimagesource",
   "camerapanel": "https://github.com/bolav/fuse-camerapanel",
+  "cocoapods": "https://github.com/bolav/fuse-cocoapods",
   "contacts": "https://github.com/bolav/fuse-contacts",
+  "datepicker": "https://github.com/bolav/fuse-datepicker",
   "dropbox": "https://github.com/bolav/fuse-dropbox",
   "emacs": "https://github.com/bolav/fuse-emacs",
   "facebook-login": "https://github.com/bolav/fuse-facebook-login",
+  "fontawesome": "https://github.com/danmademe/fuse-fontawesome",
   "gallery": "https://github.com/bolav/fuse-gallery",
+  "homescreen": "https://github.com/bolav/fuse-homescreen",
   "onetimepassword": "https://github.com/toral/fuse-onetimepassword",
   "qreader": "https://github.com/zean00/fuse-qreader",
   "socketio": "https://github.com/bolav/fuse-socketio",
@@ -16,6 +19,5 @@ module.exports = {
   "testfairy": "https://github.com/bolav/fuse-testfairy",
   "touchid": "https://github.com/bolav/fuse-touchid",
   "whilevisibleinscrollview": "https://github.com/bolav/fuse-whilevisibleinscrollview",
-  "youtube": "https://github.com/bolav/fuse-youtube",
-  "cocoapods": "https://github.com/bolav/fuse-cocoapods"
+  "youtube": "https://github.com/bolav/fuse-youtube"
 }
