@@ -24,12 +24,12 @@ program
   .action(list);
 
 program
-  .command('bump <release>')
+  .command('bump <release> [version]')
   .description('bump version')
   .action(bump);
 
 program
-  .command('version <release>', null, { noHelp: true })
+  .command('version <release> [version]', null, { noHelp: true })
   .description('bump version')
   .action(bump);
 
